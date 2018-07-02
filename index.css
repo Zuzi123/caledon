@@ -1,0 +1,130 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#navigation {
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    height: 100%;
+    background-image: url("https://assets.awwwards.com/awards/submissions/2018/06/5b2a659c0c03a.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#navtext {
+    margin-top: 200px;
+    margin-left: 100px;
+    width: 100%;
+    max-width: 400px;
+    text-align: justify;
+    margin-bottom:100px;
+    height: calc(100%-500px);
+    color: white;
+}
+
+
+    #navtext header {
+        font-size: 26px;
+        font-weight: 800;
+        margin-bottom: 10px;
+    }
+
+    #navtext p {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 25px;
+        font-family: 'Avenir-Medium';
+    }
+
+#navinfo {
+    display: flex;
+    flex-direction: column;
+   justify-content:flex-end;
+    align-content: flex-end;
+    text-align: right;
+    word-spacing: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin: 0;
+    
+   
+}
+
+#navlinks ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+}
+
+
+#navlinks a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#container {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: 60px;
+    width: 100%;
+    height: inherit;
+}
+
+#firstsection {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+#firstimage {
+    width: 70%;
+    color: indigo;
+}
+
+#firsttext {
+    margin-left:60px;
+
+    text-align: left;
+    width: 400px;
+}
+
+#lower {
+    margin-top: 300px;
+    margin-left: 0px;
+    margin-right: 90px;
+}
+
+    #lower header {
+        font-size: 16px;
+        color: indigo;
+    }
+
+    #lower p {
+        line-height: 25px;
+        font-size: 12px;
+        color: midnightblue;
+        
+    }
+
+
+
+.imagecaption figcaption p {
+    letter-spacing: 3px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+#firsttext {
+}
+
+.imagecaption figcaption {
+}
